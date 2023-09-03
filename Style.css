@@ -2,11 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Inter&display=swap');
 
+/* boiler palatte */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* navbar section */
 nav {
     display: flex;
     align-items: center;
@@ -124,7 +126,7 @@ nav {
 
 }
 
-/* css of nav done */
+/* -------------------------------------------- */
 
 /* announcement time */
 
@@ -148,7 +150,9 @@ nav {
     padding: 20px;
 }
 
-/* styling hero section */
+/* ----------------------------------------- */
+
+/* hero section */
 
 .hero {
     margin-top: 100px;
@@ -204,6 +208,7 @@ nav {
   
   .pic {
     position: relative;
+
   }
   
   .pic>img:first-child {
@@ -324,7 +329,7 @@ nav {
     line-height: 150%;
   }
   
-  /* styling section */
+  /* courses */
   
   .courses-offered {
     display: flex;
@@ -586,83 +591,6 @@ nav {
   .buttons>button:nth-child(2):hover {
     scale: 1.1;
   }
-  
-  /* styling hiring partners section */
-  
-  .hiring-partners {
-    margin-top: 50px;
-  }
-  
-  .hiring-partners>div:nth-child(1)>p:first-child {
-    text-align: center;
-    font-family: ABeeZee;
-    font-size: 16px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 1.28px;
-    text-transform: uppercase;
-    background: linear-gradient(277deg, #992fed 0%, #2f80ed 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  .hiring-partners>div:nth-child(1)>h1 {
-    color: #2b2f34;
-    text-align: center;
-    font-family: ABeeZee;
-    font-size: 42px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 150%;
-    letter-spacing: -0.63px;
-  }
-  
-  .hiring-partners>div:nth-child(1)>h1>span {
-    color: #2f80ed;
-    font-family: ABeeZee;
-    font-size: 42px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 150%;
-    letter-spacing: -0.63px;
-  }
-  
-  .hiring-partners>div:nth-child(1)>p:last-child {
-    color: #595959;
-    font-family: ABeeZee;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 130%;
-    letter-spacing: 0.36px;
-    text-align: center;
-  }
-  
-  .companies {
-    width: 90%;
-    margin: auto;
-  }
-  
-  .companies>img {
-    margin: 20px;
-    transition: scale 1s linear;
-  }
-  
-  .companies>img:hover {
-    scale: 1.2;
-  }
-  
-  .button {
-    margin-top: 30px;
-    transition: scale 2s linear;
-  }
-  
-  .button>img:hover {
-    scale: 1.2;
-  }
-   
 
 /* Companies */
 
@@ -774,7 +702,7 @@ nav {
 }
 
 
-
+/* student section */
 .students {
     margin-top: 200px;
     padding: 96px 107px 138px 107px;
